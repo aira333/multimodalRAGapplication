@@ -154,8 +154,17 @@ def analyze_image_content(image_path):
     return top_category, top_prob.item()
 ```
 
+## Navigation in colab
+- Please navigate to runtime and change the runtime type to gpu
+- Open runtime again and select run all
+- Navigate to the last kernal
+- Choose option 1
+- Upload pdf
+- Ask a Query
+
 ### Custom Document Sources
 The default implementation works with PDFs only.
 
 ## Acknowledgments
 - PDF processing uses the PyMuPDF library
+
